@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightWave Studio</title>
+    <meta
+      name="description"
+      content="BrightWave Studio creates thoughtful digital experiences for growing businesses."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">BrightWave</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-primary" href="#contact">Book a Call</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Creative digital partner</p>
+            <h1>We build calm, memorable experiences that grow your brand.</h1>
+            <p class="subtitle">
+              From brand identity to websites and digital campaigns, we help businesses turn
+              ideas into experiences people remember.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">Get Started</a>
+              <a class="button button-secondary" href="#services">Explore Services</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Key business metrics">
+              <li><strong>120+</strong><span>Projects shipped</span></li>
+              <li><strong>4.9/5</strong><span>Client rating</span></li>
+              <li><strong>30%</strong><span>Avg. conversion lift</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Illustrated dashboard preview">
+            <div class="card dashboard-card">
+              <div class="card-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="stats-row">
+                <div>
+                  <small>Revenue</small>
+                  <strong>$48.2K</strong>
+                </div>
+                <div class="pill success">+18.4%</div>
+              </div>
+              <div class="chart-bars" aria-hidden="true">
+                <span style="height: 32%"></span>
+                <span style="height: 58%"></span>
+                <span style="height: 44%"></span>
+                <span style="height: 68%"></span>
+                <span style="height: 78%"></span>
+                <span style="height: 92%"></span>
+                <span style="height: 100%"></span>
+              </div>
+            </div>
+            <div class="floating-card card-one">
+              <span>Brand launches</span>
+              <strong>8 this quarter</strong>
+            </div>
+            <div class="floating-card card-two">
+              <span>Engagement</span>
+              <strong>+64%</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container intro">
+          <p class="section-tag">Why us</p>
+          <h2>Strategy, design, and execution in one studio.</h2>
+          <p>
+            We work with founders and teams who want more than just a polished website.
+            They want a clearer story, stronger positioning, and a digital experience that
+            converts attention into action.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="section muted">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Services</p>
+            <h2>Everything you need to launch with confidence.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="info-card">
+              <div class="icon">✦</div>
+              <h3>Brand Strategy</h3>
+              <p>Positioning, messaging, visual direction, and storytelling for standout brands.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon">▣</div>
+              <h3>Web Design</h3>
+              <p>Beautiful, responsive websites designed around user behavior and business goals.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon">◎</div>
+              <h3>Growth Marketing</h3>
+              <p>Campaigns and conversion-focused experiences that turn traffic into results.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Selected work</p>
+            <h2>Built for momentum.</h2>
+          </div>
+          <div class="work-list">
+            <div class="work-item">
+              <span class="work-type">SaaS</span>
+              <h3>Northstar Analytics</h3>
+              <p>Repositioned the brand and launched a conversion-focused marketing site.</p>
+            </div>
+            <div class="work-item">
+              <span class="work-type">E-commerce</span>
+              <h3>Nova Goods</h3>
+              <p>Created a premium storefront experience that improved retention and average order value.</p>
+            </div>
+            <div class="work-item">
+              <span class="work-type">Consulting</span>
+              <h3>Stone & Co.</h3>
+              <p>Built a cleaner digital presence to help the firm win higher-value client engagements.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="section-tag">Let’s build something great</p>
+          <h2>Ready to turn your next idea into a standout experience?</h2>
+        </div>
+        <a class="button button-primary" href="mailto:hello@brightwave.studio">hello@brightwave.studio</a>
+      </div>
+      <div class="container bottom-bar">
+        <span>© <span id="year"></span> BrightWave Studio</span>
+        <span>Crafted for curious teams.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
