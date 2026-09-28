@@ -1,0 +1,14 @@
+# Ignore a specific file
+secrets.json
+
+# Ignore all files with a specific extension
+*.log
+*.tmp
+
+# Ignore an entire folder (like node_modules or build outputs)
+node_modules/
+dist/
+
+# Exception: Ignore all .log files, but keep important.log
+*.log
+!important.log
